@@ -5,13 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="css/main.css">
 	<title>Parallax presentation</title>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="js/jquery.stellar.js" type="text/javascript"></script>
-	<script type="text/javascript">
-	 $(window).stellar({
-	 horizontalScrolling: true,
-	});
-	</script>
+
 </head>
 <body>
 
@@ -20,35 +14,138 @@
 		<div class="slides">
 
 			<div class="item">
-				<div class="image" data-stellar-ration="1" style="background-image:url(img/1.jpg);"></div>
-
-				<div class="parallax" data-stellar-ratio="2">
-					<h1 class="top">Testing 1</h1>
+				<div class="image" style="background-image:url(img/1.jpg);"></div>
+				<div class="parallax top center" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Top center</h1>
+					</div>
+				</div>
+				<div class="parallax top center" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
 				</div>
 			</div>
 
 			<div class="item">
-				<div class="image" data-stellar-ration="1" style="background-image:url(img/2.jpg);"></div>
-
-				<div class="parallax" data-stellar-ratio="2">
-					<h1 class="top">Testing 1</h1>
+				<div class="image" style="background-image:url(img/3.jpg);"></div>
+				<div class="parallax center" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Center</h1>
+					</div>
+				</div>
+				<div class="parallax center" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
 				</div>
 			</div>
 
 			<div class="item">
-				<div class="image" data-stellar-ration="1" style="background-image:url(img/3.jpg);"></div>
+				<div class="image" style="background-image:url(img/1.jpg);"></div>
+				<div class="parallax bottom center" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Bottom center</h1>
+					</div>
+				</div>
+				<div class="parallax bottom center" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
+				</div>
+			</div>
 
-				<div class="parallax" data-stellar-ratio="2">
-					<h1 class="top">Testing 1</h1>
+			<div class="item">
+				<div class="image" style="background-image:url(img/2.jpg);"></div>
+				<div class="parallax left center" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Left center</h1>
+					</div>
+				</div>
+				<div class="parallax left center" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image" style="background-image:url(img/3.jpg);"></div>
+				<div class="parallax right center" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Right center</h1>
+					</div>
+				</div>
+				<div class="parallax right center" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image" style="background-image:url(img/2.jpg);"></div>
+				<div class="parallax right" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Right</h1>
+					</div>
+				</div>
+				<div class="parallax right" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image" style="background-image:url(img/1.jpg);"></div>
+				<div class="parallax left" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Left</h1>
+					</div>
+				</div>
+				<div class="parallax left" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image" style="background-image:url(img/3.jpg);"></div>
+				<div class="parallax right bottom" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Right bottom</h1>
+					</div>
+				</div>
+				<div class="parallax right bottom" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image" style="background-image:url(img/2.jpg);"></div>
+				<div class="parallax left bottom" data-stellar-ratio="1.5">
+					<div class="heading">
+						<h1>Left bottom</h1>
+					</div>
+				</div>
+				<div class="parallax left bottom" data-stellar-ratio="1.8">
+					<div class="heading">
+						<h2>And then there is the subheading.</h2>
+					</div>
 				</div>
 			</div>
 
 		</div>
 
 	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-
-	<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+			<script src="js/jquery.stellar.js" type="text/javascript"></script>
+			<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
 	<script src="js/index.js" type="text/javascript"></script>
 </body>
 </html>

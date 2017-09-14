@@ -47,6 +47,16 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: 'RobotoLight';
+  src: url('../fonts/Roboto-Light.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'RobotoLightItalic';
+  src: url('../fonts/Roboto-LightItalic.ttf')  format('truetype');
+}
+
 html, body{
 	height: 100%;
 	width: 100%;
@@ -92,36 +102,66 @@ html, body{
 }
 
 .parallax{
-	position: absolute;
 	box-sizing: border-box;
-	float:left;
 	z-index: 1;
 	color: #fff;
+	clear: both;
 	width: 100%;
-	padding: 30px;
-	font-size: 3em;
-	font-weight: bolder;
+}
+
+.heading{
+	margin-top: 20px;
+	display: inline-block;
+	float: none;
+	width: auto;
+	position:relative;
+	background-color: rgba(0,0,0,0.5);
+	padding: 5px;
 }
 
 h1{
+	float: left;
 	width: 100%;
-
+	font-family: 'RobotoLight', sans-serif;
+	font-size: 7em;
+	font-weight: normal;
+  text-shadow: 4px 4px #000000;
 }
 
-h1.left{
-	text-align: left;
+h2{
+	float: left;
+	width: 100%;
+	font-family: 'RobotoLightItalic', sans-serif;
+	font-size: 5em;
+	font-weight: normal;
+	text-shadow: 4px 4px #000000;
 }
 
-
-h1.right{
-	text-align: right;
-}
-
-h1.bottom{
-	bottom: 0;
-}
-
-h1.top{
-	top:0;
+.center	{
+	position: relative;
+	top: 400px;
 	text-align: center;
+}
+
+.top{
+	position: relative;
+	top: 0px!important;
+}
+
+.left{
+	position: relative;
+	text-align: left;
+	left: 40px;
+}
+
+.right{
+	position: relative;
+	text-align: right;
+	right: 40px;
+}
+
+.bottom{
+	top: 760px!important;
+	position: relative;
+	bottom: 0!important;
 }

@@ -3,16 +3,18 @@
   var slider = $('.slides');
 
   $(window).on('load', function(){
+
     slider.bxSlider({
-      speed: 5000,
+      speed: 1500,
       pager: false,
       controls: false,
       auto: false,
       autostart: 'true',
       mode: 'horizontal',
       captions: false,
-      infiniteLoop: 'true',
-      slideSelector: 'div.item'
+      infiniteLoop: false,
+      slideSelector: 'div.item',
+      useCSS: true,
     });
 
     //Use the arrow keys to control the slider
@@ -25,6 +27,14 @@
             slider.goToPrevSlide();
             return false;
        }
+    });
+
+    $(".slides").stellar({
+      scrollProperty: 'transform',
+      positionProperty: 'transform',
+      horizontalScrolling: true,
+      verticalScrolling: false,
+      hideDistantElements: false,
     });
 
   });
