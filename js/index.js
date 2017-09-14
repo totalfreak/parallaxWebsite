@@ -4,7 +4,7 @@
 
   $(window).on('load', function(){
     slider.bxSlider({
-      speed: 1000,
+      speed: 5000,
       pager: false,
       controls: false,
       auto: false,
@@ -12,7 +12,6 @@
       mode: 'horizontal',
       captions: false,
       infiniteLoop: 'true',
-      sledeWidth: 100,
       slideSelector: 'div.item'
     });
 
@@ -27,8 +26,6 @@
             return false;
        }
     });
-
-    //$('.main').stellar();
 
   });
 

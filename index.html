@@ -5,6 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="css/main.css">
 	<title>Parallax presentation</title>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="js/jquery.stellar.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	 $(window).stellar({
+	 horizontalScrolling: true,
+	});
+	</script>
 </head>
 <body>
 
@@ -13,29 +20,34 @@
 		<div class="slides">
 
 			<div class="item">
-				<div class="image" style="background-image:url(img/1.jpg);"></div>
-				<h1 data-stellar-ratio="0.1">Testing 1</h1>
-				<h2>Subtitle</h2>
+				<div class="image" data-stellar-ration="1" style="background-image:url(img/1.jpg);"></div>
+
+				<div class="parallax" data-stellar-ratio="2">
+					<h1 class="top">Testing 1</h1>
+				</div>
 			</div>
 
 			<div class="item">
-				<div class="image" style="background-image:url(img/2.jpg);"></div>
-				<h1 data-stellar-ratio="0.1">Testing 1</h1>
-				<h2>Subtitle</h2>
+				<div class="image" data-stellar-ration="1" style="background-image:url(img/2.jpg);"></div>
+
+				<div class="parallax" data-stellar-ratio="2">
+					<h1 class="top">Testing 1</h1>
+				</div>
 			</div>
 
 			<div class="item">
-				<div class="image" style="background-image:url(img/3.jpg);"></div>
-				<h1 data-stellar-ratio="0.1">Testing 1</h1>
-				<h2>Subtitle</h2>
+				<div class="image" data-stellar-ration="1" style="background-image:url(img/3.jpg);"></div>
+
+				<div class="parallax" data-stellar-ratio="2">
+					<h1 class="top">Testing 1</h1>
+				</div>
 			</div>
 
 		</div>
 
 	</div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script src="js/jquery.stellar.js" type="text/javascript"></script>
+
 	<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
 	<script src="js/index.js" type="text/javascript"></script>
 </body>

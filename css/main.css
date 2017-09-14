@@ -61,21 +61,22 @@ html, body{
 .slides{
 	display: block;
 	min-height: 100%;
-	position: relative;
 }
 
-.bx-wrapper{
-	height: 100%;
-	min-width: 100%;
-}
-
-.bx-viewport{
-	min-height: 100%;
+.bx-viewport, .bx-wrapper{
+    position:relative;
+    width:100%;
+    height:100% !important;
+    top:0;
+    left:0;
+		    border: none !important;
 }
 
 .item{
-	height: 100%!important;
-	min-height: 100%!important;
+  height: 100% !important;
+	position: relative!important;
+	display: inline-block;
+	min-height: 1080px!important;
 }
 
 .item > .image{
@@ -83,19 +84,28 @@ html, body{
 	bottom:0;
 	top: 0;
 	position: absolute;
-	height: 100%;
-	width: 100%;
+	min-height: 100%!important;
+	min-width: 100%;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-h1{
+.parallax{
+	position: absolute;
+	box-sizing: border-box;
+	float:left;
+	z-index: 1;
 	color: #fff;
 	width: 100%;
 	padding: 30px;
 	font-size: 3em;
 	font-weight: bolder;
+}
+
+h1{
+	width: 100%;
+
 }
 
 h1.left{
@@ -113,4 +123,5 @@ h1.bottom{
 
 h1.top{
 	top:0;
+	text-align: center;
 }
