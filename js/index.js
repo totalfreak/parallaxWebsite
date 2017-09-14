@@ -5,11 +5,11 @@
   $(window).on('load', function(){
 
     slider.bxSlider({
-      speed: 1500,
+      speed: 3000,
       pager: false,
       controls: false,
       auto: false,
-      autostart: 'true',
+      autostart: false,
       mode: 'horizontal',
       captions: false,
       infiniteLoop: false,

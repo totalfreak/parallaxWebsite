@@ -101,6 +101,20 @@ html, body{
 	background-repeat: no-repeat;
 }
 
+.item > .effect{
+	margin-bottom: -100px;
+	opacity: 0.2;
+	display: block;
+	bottom:0;
+	top: 0;
+	position: absolute;
+	min-height: 100%!important;
+	min-width: 100%;
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
 .parallax{
 	box-sizing: border-box;
 	z-index: 1;
@@ -115,17 +129,24 @@ html, body{
 	float: none;
 	width: auto;
 	position:relative;
-	background-color: rgba(0,0,0,0.5);
 	padding: 5px;
+	z-index: 999;
+
+}
+
+.subheading{
+	background-color: rgba(0,0,0,0.8);
+	padding: 10px;
 }
 
 h1{
 	float: left;
 	width: 100%;
 	font-family: 'RobotoLight', sans-serif;
-	font-size: 7em;
+	font-size: 8em;
 	font-weight: normal;
   text-shadow: 4px 4px #000000;
+	z-index: 2;
 }
 
 h2{
@@ -135,6 +156,7 @@ h2{
 	font-size: 5em;
 	font-weight: normal;
 	text-shadow: 4px 4px #000000;
+	z-index: 1;
 }
 
 .center	{
@@ -164,4 +186,44 @@ h2{
 	top: 760px!important;
 	position: relative;
 	bottom: 0!important;
+}
+
+.smoke1{
+	background-image:url(../img/effect/smoke1.png);
+}
+
+.smoke2{
+	background-image:url(../img/effect/smoke2.png);
+}
+
+.shatter1{
+	background-image:url(../img/effect/shatter1.png);
+}
+
+.shatter2{
+	background-image:url(../img/effect/shatter2.png);
+}
+
+.dust1{
+	background-image:url(../img/effect/dust1.png);
+}
+
+.dust2{
+	background-image:url(../img/effect/dust2.png);
+}
+
+.fog1{
+	background-image:url(../img/effect/fog1.png);
+}
+
+.fog{
+	background-image:url(../img/effect/fog2.png);
+}
+
+.powder1{
+	background-image:url(../img/effect/powder1.png);
+}
+
+.powder2{
+	background-image:url(../img/effect/powder2.png);
 }
