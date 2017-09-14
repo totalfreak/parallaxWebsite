@@ -46,3 +46,71 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.main{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.slides{
+	display: block;
+	min-height: 100%;
+	position: relative;
+}
+
+.bx-wrapper{
+	height: 100%;
+	min-width: 100%;
+}
+
+.bx-viewport{
+	min-height: 100%;
+}
+
+.item{
+	height: 100%!important;
+	min-height: 100%!important;
+}
+
+.item > .image{
+	display: block;
+	bottom:0;
+	top: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1{
+	color: #fff;
+	width: 100%;
+	padding: 30px;
+	font-size: 3em;
+	font-weight: bolder;
+}
+
+h1.left{
+	text-align: left;
+}
+
+
+h1.right{
+	text-align: right;
+}
+
+h1.bottom{
+	bottom: 0;
+}
+
+h1.top{
+	top:0;
+}
