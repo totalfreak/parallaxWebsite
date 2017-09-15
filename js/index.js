@@ -6,7 +6,7 @@
   $(window).on('load', function(){
 
     slider.bxSlider({
-      speed: 2000,
+      speed: 1200,
       pager: false,
       controls: false,
       auto: false,
