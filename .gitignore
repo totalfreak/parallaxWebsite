@@ -1,0 +1,90 @@
+/dist
+/tmp
+
+/node_modules
+/bower_components
+
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+
+.divshot-cache
+
+/.bundle
+
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+/log/*.log
+/tmp
+
+vendor/gems/*
+vendor/bundle
+db/redis*
+.rvmrc
+.rails_dev
+config/mongoid.yml
+config/*_local.yml
+config/redis.*.conf
+config/aws.yml
+config/application.yml
+config/database.yml
+.powenv
+.powrc
+
+.*cache
+*.log
+cache/*
+backup
+_files
+log
+log/**/*
+.monitor
+Forwardfile
+
+# OS X Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lnk
+*~
+
+# IDE FILES
+*.sublime-*
+*.tmproj
+.idea/
+
+# BOWER & BUILD TOOLS
+/build/*
+/bower_components/*
+
+# SASS
+*.sassc
+
+# ZEUS
+zeus.json
+custom_plan.rb
+
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+
+# SYMFONY
+/web/bundles/
+/app/bootstrap*
+/app/cache/*
+/app/logs/*
+/vendor/
+/app/config/parameters.yml
+composer.phar
+
+# DRUPAL
+sites/*/settings*.php
+sites/*/files
+sites/*/private
