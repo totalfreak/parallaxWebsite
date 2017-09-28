@@ -47,7 +47,7 @@
       positionProperty: 'transform',
       horizontalScrolling: true,
       verticalScrolling: false,
-      hideDistantElements: false,
+      hideDistantElements: false
     });
 
     //Hide the mouse
