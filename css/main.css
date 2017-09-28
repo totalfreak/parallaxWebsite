@@ -115,6 +115,10 @@ html, body{
 	background-repeat: no-repeat;
 }
 
+.first-item{
+	background-color: #559591;
+}
+
 .parallax{
 	box-sizing: border-box;
 	z-index: 1;
