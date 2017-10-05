@@ -89,6 +89,10 @@ html, body{
 	min-height: 1080px!important;
 }
 
+.item > video{
+	position: absolute;
+}
+
 .item > .image{
 	display: block;
 	bottom:0;
