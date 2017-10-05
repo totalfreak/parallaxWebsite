@@ -46,6 +46,16 @@
           slider.goToPrevSlide();
           return false;
      }
+
+        var video = document.getElementById("bgvid");
+        if (e.keyCode == 32) {
+            if (video.paused == true){
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
     });
 
 
