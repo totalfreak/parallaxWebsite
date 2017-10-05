@@ -16,6 +16,7 @@
       infiniteLoop: false,
       slideSelector: 'div.item',
       useCSS: true,
+      preloadImages: 'all',
       onSlideBefore() {
         isSliding = true;
       },
