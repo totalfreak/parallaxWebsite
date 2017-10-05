@@ -216,6 +216,15 @@ h2{
 	background-image:url(../img/effect/dust2.png);
 }
 
+
+.dustGray1{
+	background-image:url(../img/effect/dust1_gray.png);
+}
+
+.dustGray2{
+	background-image:url(../img/effect/dust2_gray.png);
+}
+
 .fog1{
 	background-image:url(../img/effect/fog1.png);
 }
