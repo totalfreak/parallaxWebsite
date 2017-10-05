@@ -35,14 +35,15 @@
       if (e.keyCode == 39){
           slider.goToNextSlide();
           return false;
-      }
-      else if (e.keyCode == 37){
+      }else if (e.keyCode == 37){
           slider.goToPrevSlide();
           return false;
      } else if(e.keyCode == 38) {
           slider.goToNextSlide();
+          return false;
      } else if(e.keyCode == 40) {
           slider.goToPrevSlide();
+          return false;
      }
     });
 
