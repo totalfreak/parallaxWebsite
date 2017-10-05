@@ -39,7 +39,16 @@
       else if (e.keyCode == 37){
           slider.goToPrevSlide();
           return false;
+     } else if(e.keyCode == 38) {
+          slider.goToNextSlide();
+     } else if(e.keyCode == 40) {
+          slider.goToPrevSlide();
      }
+    });
+
+
+    $(document).on("contextmenu",function(){
+       return false;
     });
 
     $(".slides").stellar({
