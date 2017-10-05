@@ -147,8 +147,8 @@ h1{
 	float: left;
 	width: 100%;
 	font-family: 'RobotoLight', sans-serif;
-	font-size: 8em;
-	font-weight: normal;
+	font-size: 7em;
+	font-weight: bold;
   text-shadow: 4px 4px #000000;
 	z-index: 2;
 }
